@@ -161,6 +161,32 @@ section.headline p {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 991px) {
+  .main-program .row .card {
+    height: 300px;
+    align-items: center;
+  }
+
+  .main-program .card .card-img-top {
+    width: 45%;
+    height: 200px;
+    margin: 5px auto;
+  }
+  
+  .main-program div.col-lg-3:nth-of-type(3) .card .card-img-top {
+    width: 45%;
+  }
+
+  .main-program a {
+    background: red;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 1px;
+    text-decoration: none;
+  }
+}
+
 /* Start Featured Teachers */
 section.featured-teachers h2 {
   font-family: cocogoose, sans-serif;
