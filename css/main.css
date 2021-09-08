@@ -1,0 +1,211 @@
+/* Start Fonts */
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/Cocogoose-Pro-Thin-trial.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/Cocogoose-Pro-Ultralight-trial.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/Cocogoose-Pro-Light-trial.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/Cocogoose-Pro-Semilight-trial.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/Cocogoose-Pro-trial.ttf);
+  font-weight: 600;
+}
+
+/* Start Global Rules */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: cocogoose, sans-serif; 
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  color: #d3d3d3;
+}
+
+.me-70 {
+  margin-right: 70px;
+}
+
+li,
+p,
+span {
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+  color: #272a31;
+  color: #ec5242;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-family: cocogoose, sans-serif; 
+*/
+
+/* Start Navbar */
+.navbar .navbar-brand {
+  width: 100px;
+}
+
+.navbar .navbar-nav li.nav-item:first-child {
+  width: 100px;
+}
+
+/* Start Headline */
+section.headline {
+  background-image: url(../imgs/headline_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.headline h1 {
+  font-family: cocogoose, sans-serif;
+  font-size: 30px;
+  color: #ec5242;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+section.headline p {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  section.headline h1 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  section.headline p {
+    width: 80%;
+  }
+}
+
+/* Start Main Program */
+.main-program {
+  background-image: url(../imgs/main-program-bg.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  margin-top: 110px;
+}
+
+.main-program h2 {
+  font-family: cocogoose, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.main-program h2::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 45px;
+  margin: 10px auto;
+}
+
+.main-program .row .card {
+  height: 370px;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+.main-program .card .card-img-top {
+  width: 60%;
+  margin: 5px auto;
+}
+
+.main-program div.col-lg-3:nth-of-type(3) .card .card-img-top {
+  width: 80%;
+}
+
+.main-program .card .card-title {
+  color: #ec5242;
+}
+
+.main-program .card .card-text {
+  font-size: 18px;
+}
+
+.main-program a {
+  text-decoration: underline;
+}
+
+/* Start Featured Teachers */
+section.featured-teachers h2 {
+  font-family: cocogoose, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+section.featured-teachers h2::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 45px;
+  margin: 10px auto;
+}
+
+section.featured-teachers #teachers .teacher {
+  margin-bottom: 90px;
+}
+
+section.featured-teachers #teachers .teacher h4 {
+  color: #ec5242;
+  font-size: 12px;
+}
+
+section.featured-teachers #teachers .teacher p {
+  color: #272a31;
+}
+
+/* Start Partner */
+.partner {
+  background: #414246;;
+}
+
+.partner h2 {
+  color: #272a31;
+}
+
+.partner h2::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 45px;
+  margin: 10px auto;
+}
+
+.partner .img-container {
+  width: 200px;
+}
