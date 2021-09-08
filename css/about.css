@@ -1,0 +1,85 @@
+/* Start Headline */
+section.headline {
+  background-position: center center;
+}
+
+section.headline nav {
+  --bs-breadcrumb-divider: '>';
+}
+
+section.headline h1 {
+  font-family: cocogoose, sans-serif;
+  color: #ec5242;
+  font-size: 75px;
+}
+
+section.headline h1::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 45px;
+  margin: 10px auto;
+}
+
+section.headline p {
+  width: 70%;
+}
+
+section.headline .description {
+  margin-top: 225px;
+}
+
+section.headline .description h2::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 45px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 768px) {
+  section.headline h1 {
+    font-size: 50px;
+  }
+
+  section.headline p {
+    width: 90%;
+  }
+}
+
+/* Start past section */
+.past {
+  margin-top: 220px;
+}
+
+.past h2.title::after {
+  content: '';
+  display: block;
+  border: 1px solid #ec5242;
+  width: 40px;
+  margin: 10px auto;
+}
+
+.past .last-years div.years {
+  position: relative;
+  width: 310px;
+}
+
+.past .last-years div.years:nth-child(1) {
+  background-image: url(../imgs/about1.jpg);
+  background-size: cover;
+}
+
+.past .last-years div.years:nth-child(2) {
+  background-image: url(../imgs/about2.jpg);
+  background-size: cover;
+}
+
+.past .last-years div.years .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #922411b0;
+}

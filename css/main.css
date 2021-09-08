@@ -39,12 +39,13 @@ body,
 html {
   overflow-x: hidden;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: cocogoose, sans-serif; 
+  font-family: cocogoose, sans-serif;
 }
 
 a {
@@ -72,7 +73,7 @@ span {
   color: #ec5242;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
-  font-family: cocogoose, sans-serif; 
+  font-family: cocogoose, sans-serif;
 */
 
 /* Start Navbar */
@@ -98,6 +99,7 @@ section.headline h1 {
   margin-left: 35px;
   margin-bottom: 20px;
 }
+
 section.headline p {
   width: 50%;
 }
@@ -172,7 +174,7 @@ section.headline p {
     height: 200px;
     margin: 5px auto;
   }
-  
+
   .main-program div.col-lg-3:nth-of-type(3) .card .card-img-top {
     width: 45%;
   }
@@ -194,7 +196,7 @@ section.featured-teachers h2 {
   font-size: 25px;
 }
 
-section.featured-teachers h2::after {
+section.featured-teachers h2.title::after {
   content: '';
   display: block;
   border: 1px solid #ec5242;
@@ -217,10 +219,10 @@ section.featured-teachers #teachers .teacher p {
 
 /* Start Partner */
 .partner {
-  background: #414246;;
+  background: #414246;
 }
 
-.partner h2 {
+.partner h2.title {
   color: #272a31;
 }
 

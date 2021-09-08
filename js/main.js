@@ -37,9 +37,8 @@ const teachers = [
   },
 ];
 
-const teachersContainer = document.getElementById('teachers');
-
 teachers.map((teacher) => {
+  const teachersContainer = document.getElementById('teachers');
   const teacherContainer = document.createElement('div');
   teacherContainer.className = 'teacher col-lg-6 col-12 d-md-flex';
   // Img
