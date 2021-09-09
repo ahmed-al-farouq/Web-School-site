@@ -68,14 +68,6 @@ span {
   font-family: 'Lato', sans-serif;
 }
 
-/*
-  color: #272a31;
-  color: #ec5242;
-  color: #d3d3d3;
-  font-family: 'Lato', sans-serif;
-  font-family: cocogoose, sans-serif;
-*/
-
 /* Start Navbar */
 .navbar .navbar-brand {
   width: 100px;
@@ -114,6 +106,13 @@ section.headline h1 span {
   display: block;
   font-size: 85px;
   font-weight: bold;
+}
+
+section.headline h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: rgb(87, 87, 87);
 }
 
 section.headline p {
@@ -163,9 +162,13 @@ section.headline p {
   margin: 10px auto;
 }
 
+.main-program .row .col-md-6 {
+  width: calc(100% / 5);
+}
+
 .main-program .row .card {
   height: 370px;
-  background-color: rgba(0, 0, 0, 0.363);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .main-program .card .card-img-top {
@@ -191,6 +194,11 @@ section.headline p {
 }
 
 @media screen and (max-width: 991px) {
+  .main-program .row .col-md-6 {
+    width: 100%;
+    margin: 20px auto;
+  }
+
   .main-program .row .card {
     align-items: center;
   }
