@@ -85,6 +85,15 @@ span {
   width: 100px;
 }
 
+.navbar .navbar-nav li.nav-item:last-child {
+  border: 3px solid #ef513c;
+}
+
+.navbar .navbar-nav li.nav-item a:hover,
+.navbar .navbar-nav li.nav-item a.active {
+  color: #ef513c;
+}
+
 /* Start Headline */
 section.headline {
   background-image: url(../imgs/headline_bg.png);
@@ -98,16 +107,33 @@ section.headline h1 {
   color: #ec5242;
   margin-left: 35px;
   margin-bottom: 20px;
+  display: block;
+}
+
+section.headline h1 span {
+  display: block;
+  font-size: 85px;
+  font-weight: bold;
 }
 
 section.headline p {
   width: 50%;
+  background: #fff;
+  border: 1px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
+  section.headline {
+    background-position: center;
+  }
+
   section.headline h1 {
     font-size: 20px;
     margin-left: 10px;
+  }
+
+  section.headline h1 span {
+    font-size: 55px;
   }
 
   section.headline p {
@@ -144,6 +170,7 @@ section.headline p {
 
 .main-program .card .card-img-top {
   width: 60%;
+  height: 160px;
   margin: 5px auto;
 }
 
@@ -159,19 +186,17 @@ section.headline p {
   font-size: 18px;
 }
 
-.main-program a {
+.main-program a.link {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
   .main-program .row .card {
-    height: 300px;
     align-items: center;
   }
 
   .main-program .card .card-img-top {
     width: 45%;
-    height: 200px;
     margin: 5px auto;
   }
 
@@ -179,8 +204,8 @@ section.headline p {
     width: 45%;
   }
 
-  .main-program a {
-    background: red;
+  .main-program a.link {
+    background: #ec5242;
     width: 80%;
     margin: auto;
     padding: 10px;

@@ -27,12 +27,6 @@ This is my capstone project for first month at microverse
  2) Double click on index.html
  3) Enjoy
 
-# Prerequisites
-# Setup
-# Install
-# Usage
-# Run tests
-# Deployment
 # Authors
  :bearded_person: **Author 1**
   - Github: [@Ahmed-Alfarouq](https://github.com/Ahmed-Alfaouq)

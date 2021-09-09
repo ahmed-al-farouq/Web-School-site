@@ -40,14 +40,14 @@ const teachers = [
 teachers.map((teacher) => {
   const teachersContainer = document.getElementById('teachers');
   const teacherContainer = document.createElement('div');
-  teacherContainer.className = 'teacher col-lg-6 col-12 d-md-flex';
+  teacherContainer.className = 'teacher col-lg-6 col-12 d-flex';
   // Img
   const teacherImage = document.createElement('img');
   teacherImage.src = teacher.img;
   teacherContainer.appendChild(teacherImage);
   /* Content */
   const content = document.createElement('div');
-  content.className = 'content text-md-start ms-3';
+  content.className = 'content text-start ms-3';
   teacherContainer.appendChild(content);
   // Name
   const teacherName = document.createElement('h3');
