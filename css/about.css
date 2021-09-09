@@ -63,6 +63,7 @@ section.headline .description h2::after {
 .past .last-years div.years {
   position: relative;
   width: 310px;
+  height: 200px;
 }
 
 .past .last-years div.years:nth-child(1) {
@@ -82,4 +83,9 @@ section.headline .description h2::after {
   left: 0;
   right: 0;
   background-color: #922411b0;
+}
+
+/* Start Footer */
+footer {
+  background-color: #272a31;
 }
