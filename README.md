@@ -19,7 +19,7 @@ This is my capstone project for first month at microverse
 
 # Getting Started
  1) open command line
- 2) write "git clone https://github.com/Ahmed-Alfaouq/microverse-Capstone1.git"
+ 2) write "git clone https://github.com/ahmed-al-farouq/microverse-Capstone1.git"
  3) Enjoy
  
  Or
@@ -28,10 +28,10 @@ This is my capstone project for first month at microverse
  3) Enjoy
 
 # Authors
- :bearded_person: **Author 1**
-  - Github: [@Ahmed-Alfarouq](https://github.com/Ahmed-Alfaouq)
-  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-omar912ba9199/)
-  - Twitter: [@twitter](https://twitter.com/mediocre23534)
+:bearded_person: **Ahmed Omar**
+  - Github: [@Ahmed-Alfarouq](https://github.com/ahmed-al-farouq)
+  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-al-farouq/)
+  - Twitter: [@twitter](https://twitter.com/ahmed_al_farouq)
 
 # :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
