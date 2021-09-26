@@ -15,7 +15,7 @@ This is my capstone project for first month at microverse
   * Bootrap 5
 
 # Live Demo
-[Live Demo](https://ahmed-alfaouq.github.io/microverse-Capstone1/)
+[Live Demo](https://ahmed-al-farouq.github.io/microverse-Capstone1/)
 
 # Getting Started
  1) open command line
