@@ -15,11 +15,11 @@ This is my capstone project for first month at microverse
   * Bootrap 5
 
 # Live Demo
-[Live Demo](https://ahmed-al-farouq.github.io/microverse-Capstone1/)
+[Live Demo](https://ahmed-al-farouq.github.io/Web-School-site/)
 
 # Getting Started
  1) open command line
- 2) write "git clone https://github.com/ahmed-al-farouq/microverse-Capstone1.git"
+ 2) write "git clone https://github.com/ahmed-al-farouq/Web-School-site.git"
  3) Enjoy
  
  Or
