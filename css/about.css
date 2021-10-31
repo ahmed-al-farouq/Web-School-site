@@ -42,6 +42,10 @@ section.headline .description h2::after {
     font-size: 50px;
   }
 
+  section.headline h1 span {
+    font-size: 35px;
+  }
+
   section.headline p {
     width: 90%;
   }

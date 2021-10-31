@@ -87,12 +87,6 @@ span {
 }
 
 /* Start Headline */
-section.headline {
-  background-image: url(../imgs/headline_bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 section.headline h1 {
   font-family: cocogoose, sans-serif;
   font-size: 30px;
@@ -100,6 +94,12 @@ section.headline h1 {
   margin-left: 35px;
   margin-bottom: 20px;
   display: block;
+  background-image: url(../imgs/headline_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section.headline h1 span {
@@ -132,7 +132,7 @@ section.headline p {
   }
 
   section.headline h1 span {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   section.headline p {
@@ -172,8 +172,8 @@ section.main-program h2 {
 }
 
 .main-program .card .card-img-top {
-  width: 67%;
-  height: 132px;
+  width: 75%;
+  height: 100px;
   margin: 5px auto;
 }
 
@@ -204,7 +204,8 @@ section.main-program h2 {
   }
 
   .main-program .card .card-img-top {
-    width: 45%;
+    width: 35%;
+    height: auto;
     margin: 5px auto;
   }
 
@@ -222,6 +223,11 @@ section.main-program h2 {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .main-program .card .card-img-top {
+    width: 45%;
+  }
+}
 /* Start Featured Teachers */
 section.featured-teachers h2 {
   font-family: cocogoose, sans-serif;
@@ -238,6 +244,7 @@ section.featured-teachers h2.title::after {
 }
 
 section.featured-teachers #teachers .teacher {
+  height: 130px;
   margin-bottom: 90px;
 }
 
@@ -269,4 +276,11 @@ section.featured-teachers #teachers .teacher p {
 
 .partner .img-container {
   width: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .partner .img-container {
+    width: 160px;
+    margin: 20px 5px;
+  }
 }
