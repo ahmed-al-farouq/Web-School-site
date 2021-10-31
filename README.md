@@ -1,6 +1,8 @@
 # microverse-Capstone1
-This is my capstone project for first month at microverse
-![page-image](./imgs/screenshoot.png)
+> This is my capstone project for first month at microverse
+> |Home Page       |Modal Window|
+> |--------------|--------------|
+> |![bg-screenshoot-full-page](./imgs/bg-screen-full-page.png)|![mob-screenshoot-full-page](./imgs/mob-screen-full-page.png)|
 
 
 # Built With
